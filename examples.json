@@ -1,0 +1,63 @@
+[
+  {
+    "label": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+    "input": {
+      "cr": 1,
+      "idade": 50,
+      "sexo": "M"
+    },
+    "expected": {
+      "raw": {
+        "gfr": 92,
+        "stage": "G1"
+      },
+      "tol": 0.5
+    },
+    "originalInput": {
+      "cr": 1,
+      "idade": 50,
+      "sexo": "M"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+    "input": {
+      "cr": 0.7,
+      "idade": 50,
+      "sexo": "F"
+    },
+    "expected": {
+      "raw": {
+        "gfr": 105
+      },
+      "tol": 0.5
+    },
+    "originalInput": {
+      "cr": 0.7,
+      "idade": 50,
+      "sexo": "F"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Homem, 70 anos, Cr 2,5: estágio G4",
+    "input": {
+      "cr": 2.5,
+      "idade": 70,
+      "sexo": "M"
+    },
+    "expected": {
+      "raw": {
+        "stage": "G4"
+      },
+      "level": "high"
+    },
+    "originalInput": {
+      "cr": 2.5,
+      "idade": 70,
+      "sexo": "M"
+    },
+    "expandedZeroOptions": []
+  }
+]

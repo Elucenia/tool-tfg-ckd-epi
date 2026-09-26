@@ -140,13 +140,9 @@
         }
       ]
     ],
-    "batch": "cardiologia",
     "kind": "Calculadora",
     "config": null,
-    "areaId": "renal-digestivo",
     "clinicalReview": "pending",
-    "sourceReview": "pending",
-    "sourceFile": "app/content/ferramentas/cardiologia.php",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -201,11 +197,6 @@
     "clinicalValidation": "not-performed",
     "reviewScope": "coeficientes, unidades e população adulta",
     "formulaOverride": "TFGe = 142 × min(SCr/κ,1)^α × max(SCr/κ,1)^−1,200 × 0,9938^idade × 1,012 se feminino; κ=0,7/0,9 e α=−0,241/−0,302 para feminino/masculino. SCr em mg/dL; resultado em mL/min/1,73 m²; idade ≥18 anos."
-  },
-  "sourceFile": {
-    "path": "app/content/ferramentas/cardiologia.php",
-    "sha256": "ed536451dd02922a7f840f2c9ce575be004cddb227f60426b7a52cf1b0e94ec0",
-    "bytes": 61303
   },
   "clinicalValidation": "not-performed"
 }

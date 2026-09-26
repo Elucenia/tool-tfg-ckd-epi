@@ -1,9 +1,11 @@
-/* ELUCENIA standalone integration. Source package metadata and rights: README.md. */
+/* tool-tfg-ckd-epi · Elucenia · https://github.com/Elucenia/tool-tfg-ckd-epi
+   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+   Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"tfg-ckd-epi","title":"Taxa de filtração glomerular (CKD-EPI 2021)","fields":[["cr","Creatinina sérica","num",{"min":0.2,"max":20,"step":"0.01","unit":"mg/dL","ph":"1,0"}],["idade","Idade","num",{"min":18,"max":110,"unit":"anos","ph":"60"}],["sexo","Sexo","radio",{"opts":{"F":"Feminino","M":"Masculino"}}]],"config":null,"reviewStatus":"source-checked","clinicalValidation":"not-performed"});
 const window={};
-/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};

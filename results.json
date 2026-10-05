@@ -1,0 +1,281 @@
+{
+  "id": "tfg-ckd-epi",
+  "at": "2026-10-05T17:30:11.814Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/tfg-ckd-epi/calculator.js",
+    "bytes": 5045,
+    "sha256": "a6f6f60100e4737053d30f697f5c43840047fdded0cf641d4e35851b9fcd78ca"
+  },
+  "cases": [
+    {
+      "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+      "input": {
+        "cr": 1,
+        "idade": 50,
+        "sexo": "M"
+      },
+      "obtained": {
+        "id": "tfg-ckd-epi",
+        "main": [
+          "92",
+          "mL/min/1,73 m²"
+        ],
+        "label": "TFG estimada (CKD-EPI 2021)",
+        "raw": {
+          "gfr": 91.6914786098333,
+          "stage": "G1"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.gfr",
+          "expected": 92,
+          "obtained": 91.6914786098333,
+          "tolerance": 0.5,
+          "difference": 0.3085213901667032,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.stage",
+          "expected": "G1",
+          "obtained": "G1",
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.gfr",
+          "expected": 91.6914786098333,
+          "obtained": 91.6914786098333,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.stage",
+          "expected": "G1",
+          "obtained": "G1",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "92",
+          "obtained": "92",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "mL/min/1,73 m²",
+          "obtained": "mL/min/1,73 m²",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    },
+    {
+      "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+      "input": {
+        "cr": 0.7,
+        "idade": 50,
+        "sexo": "F"
+      },
+      "obtained": {
+        "id": "tfg-ckd-epi",
+        "main": [
+          "105",
+          "mL/min/1,73 m²"
+        ],
+        "label": "TFG estimada (CKD-EPI 2021)",
+        "raw": {
+          "gfr": 105.29760114914401,
+          "stage": "G1"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.gfr",
+          "expected": 105,
+          "obtained": 105.29760114914401,
+          "tolerance": 0.5,
+          "difference": 0.2976011491440147,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.gfr",
+          "expected": 105.29760114914401,
+          "obtained": 105.29760114914401,
+          "tolerance": 1.0529760114914402e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.stage",
+          "expected": "G1",
+          "obtained": "G1",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "105",
+          "obtained": "105",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "mL/min/1,73 m²",
+          "obtained": "mL/min/1,73 m²",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    },
+    {
+      "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+      "input": {
+        "cr": 2.5,
+        "idade": 70,
+        "sexo": "M"
+      },
+      "obtained": {
+        "id": "tfg-ckd-epi",
+        "main": [
+          "27",
+          "mL/min/1,73 m²"
+        ],
+        "label": "TFG estimada (CKD-EPI 2021)",
+        "raw": {
+          "gfr": 26.963782417509204,
+          "stage": "G4"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.stage",
+          "expected": "G4",
+          "obtained": "G4",
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.gfr",
+          "expected": 26.963782417509204,
+          "obtained": 26.963782417509204,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.stage",
+          "expected": "G4",
+          "obtained": "G4",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "27",
+          "obtained": "27",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "mL/min/1,73 m²",
+          "obtained": "mL/min/1,73 m²",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 27,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}

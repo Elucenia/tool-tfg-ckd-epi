@@ -1,6 +1,14 @@
 [
   {
-    "label": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+    "id": "tfg-ckd-epi",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+    "originalInput": {
+      "cr": 1,
+      "idade": 50,
+      "sexo": "M"
+    },
     "input": {
       "cr": 1,
       "idade": 50,
@@ -13,15 +21,36 @@
       },
       "tol": 0.5
     },
-    "originalInput": {
-      "cr": 1,
-      "idade": 50,
-      "sexo": "M"
+    "recordedResult": {
+      "main": [
+        "92",
+        "mL/min/1,73 m²"
+      ],
+      "label": "TFG estimada (CKD-EPI 2021)",
+      "raw": {
+        "gfr": 91.6914786098333,
+        "stage": "G1"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+    "id": "tfg-ckd-epi",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+    "originalInput": {
+      "cr": 0.7,
+      "idade": 50,
+      "sexo": "F"
+    },
     "input": {
       "cr": 0.7,
       "idade": 50,
@@ -33,15 +62,36 @@
       },
       "tol": 0.5
     },
-    "originalInput": {
-      "cr": 0.7,
-      "idade": 50,
-      "sexo": "F"
+    "recordedResult": {
+      "main": [
+        "105",
+        "mL/min/1,73 m²"
+      ],
+      "label": "TFG estimada (CKD-EPI 2021)",
+      "raw": {
+        "gfr": 105.29760114914401,
+        "stage": "G1"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Homem, 70 anos, Cr 2,5: estágio G4",
+    "id": "tfg-ckd-epi",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+    "originalInput": {
+      "cr": 2.5,
+      "idade": 70,
+      "sexo": "M"
+    },
     "input": {
       "cr": 2.5,
       "idade": 70,
@@ -53,11 +103,24 @@
       },
       "level": "high"
     },
-    "originalInput": {
-      "cr": 2.5,
-      "idade": 70,
-      "sexo": "M"
+    "recordedResult": {
+      "main": [
+        "27",
+        "mL/min/1,73 m²"
+      ],
+      "label": "TFG estimada (CKD-EPI 2021)",
+      "raw": {
+        "gfr": 26.963782417509204,
+        "stage": "G4"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

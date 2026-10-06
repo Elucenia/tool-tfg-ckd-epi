@@ -1,0 +1,437 @@
+{
+  "id": "tfg-ckd-epi",
+  "implementationVersion": "tfg-ckd-epi@native-2026-10-05+2c2abeefe92f",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Estágio G1: TFG normal ou alta",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Estágio G1: TFG normal ou alta",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Estágio G4: TFG gravemente diminuída",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "TFG < 60 por mais de 3 meses: doença renal crônica e alto risco cardiovascular.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Stage G1: normal or high GFR",
+            "locale": "en",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Stage G1: normal or high GFR",
+            "locale": "en",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Stage G4: severely decreased GFR",
+            "locale": "en",
+            "template": "documented-authored-fd923fb0a8c969944b3d"
+          },
+          "note": {
+            "text": "GFR < 60 for more than 3 months: chronic kidney disease and high cardiovascular risk.",
+            "locale": "en",
+            "template": "documented-authored-279db4534b342521e975"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Estadio G1: TFG normal o alta",
+            "locale": "es",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Estadio G1: TFG normal o alta",
+            "locale": "es",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Estadio G4: TFG gravemente disminuida",
+            "locale": "es",
+            "template": "documented-authored-fd923fb0a8c969944b3d"
+          },
+          "note": {
+            "text": "TFG < 60 durante más de 3 meses: enfermedad renal crónica y alto riesgo cardiovascular.",
+            "locale": "es",
+            "template": "documented-authored-279db4534b342521e975"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Stade G1 : DFG normal ou élevé",
+            "locale": "fr",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Stade G1 : DFG normal ou élevé",
+            "locale": "fr",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Stade G4 : DFG sévèrement diminué",
+            "locale": "fr",
+            "template": "documented-authored-fd923fb0a8c969944b3d"
+          },
+          "note": {
+            "text": "DFG < 60 pendant plus de 3 mois : maladie rénale chronique et risque cardiovasculaire élevé.",
+            "locale": "fr",
+            "template": "documented-authored-279db4534b342521e975"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Stadium G1: normale oder hohe GFR",
+            "locale": "de",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Stadium G1: normale oder hohe GFR",
+            "locale": "de",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Stadium G4: stark verminderte GFR",
+            "locale": "de",
+            "template": "documented-authored-fd923fb0a8c969944b3d"
+          },
+          "note": {
+            "text": "GFR < 60 über mehr als 3 Monate: chronische Nierenerkrankung und hohes kardiovaskuläres Risiko.",
+            "locale": "de",
+            "template": "documented-authored-279db4534b342521e975"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Stadio G1: GFR normale o elevato",
+            "locale": "it",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Stadio G1: GFR normale o elevato",
+            "locale": "it",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Stadio G4: GFR gravemente ridotta",
+            "locale": "it",
+            "template": "documented-authored-fd923fb0a8c969944b3d"
+          },
+          "note": {
+            "text": "GFR < 60 per più di 3 mesi: malattia renale cronica e alto rischio cardiovascolare.",
+            "locale": "it",
+            "template": "documented-authored-279db4534b342521e975"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "المرحلة G1: معدل الترشيح الكبيبي طبيعي أو مرتفع",
+            "locale": "ar",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "المرحلة G1: معدل الترشيح الكبيبي طبيعي أو مرتفع",
+            "locale": "ar",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "المرحلة G4: معدل الترشيح الكبيبي منخفض بشدة",
+            "locale": "ar",
+            "template": "documented-authored-fd923fb0a8c969944b3d"
+          },
+          "note": {
+            "text": "معدل الترشيح الكبيبي < 60 لأكثر من 3 أشهر: مرض كلوي مزمن وخطر قلبي وعائي مرتفع.",
+            "locale": "ar",
+            "template": "documented-authored-279db4534b342521e975"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "G1期：正常或高GFR",
+            "locale": "zh",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "G1期：正常或高GFR",
+            "locale": "zh",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "G4期：GFR严重降低",
+            "locale": "zh",
+            "template": "documented-authored-fd923fb0a8c969944b3d"
+          },
+          "note": {
+            "text": "GFR < 60 持续超过3个月：慢性肾病和较高心血管风险。",
+            "locale": "zh",
+            "template": "documented-authored-279db4534b342521e975"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "G1期：GFR正常または高値",
+            "locale": "ja",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "G1期：GFR正常または高値",
+            "locale": "ja",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "G4期：GFRが高度に低下",
+            "locale": "ja",
+            "template": "documented-authored-fd923fb0a8c969944b3d"
+          },
+          "note": {
+            "text": "GFR < 60 が3か月を超える場合：慢性腎臓病および高い心血管リスク。",
+            "locale": "ja",
+            "template": "documented-authored-279db4534b342521e975"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "चरण G1: सामान्य या उच्च GFR",
+            "locale": "hi",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "चरण G1: सामान्य या उच्च GFR",
+            "locale": "hi",
+            "template": "documented-authored-d8a84c66195ed1712948"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "चरण G4: GFR गंभीर रूप से कम",
+            "locale": "hi",
+            "template": "documented-authored-fd923fb0a8c969944b3d"
+          },
+          "note": {
+            "text": "3 महीने से अधिक समय तक GFR < 60: दीर्घकालिक गुर्दे की बीमारी और उच्च हृदय-वाहिकीय जोखिम।",
+            "locale": "hi",
+            "template": "documented-authored-279db4534b342521e975"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

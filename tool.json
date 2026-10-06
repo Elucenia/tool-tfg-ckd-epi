@@ -131,7 +131,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "CKDEPIcreatinina 2021/Inker:semraça 142, min/max,κ0,7/0,9,α−0,241/−0,302; semcistatina",
-    "implementationVersion": "tfg-ckd-epi@native-2026-10-03+a6f6f60100e4",
+    "implementationVersion": "tfg-ckd-epi@native-2026-10-05+2c2abeefe92f",
     "currentMethodSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822996/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -219,7 +219,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "a6f6f60100e4737053d30f697f5c43840047fdded0cf641d4e35851b9fcd78ca"
+      "implementationHash": "2c2abeefe92fc7c783401348400541fe0d4515bc737d55552defafe051935887",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "tfg-ckd-epi@native-2026-10-03+a6f6f60100e4",
+          "previousImplementationHash": "a6f6f60100e4737053d30f697f5c43840047fdded0cf641d4e35851b9fcd78ca",
+          "implementationHash": "2c2abeefe92fc7c783401348400541fe0d4515bc737d55552defafe051935887",
+          "scientificBodySha256": "f6859a7641dbaeff13403aefa70b1bd4ccb64e3fa4529acff56199610955615a",
+          "metadataContractHash": "13fe2cfb2f3c79e314ca30c867278cc6538bf1bc505bc0c419075b4efb7184db",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "Equação CKD-EPI2021 baseada apenas em creatinina para adultos de 18 anos ou mais; requer creatinina sérica padronizada por IDMS. É uma estimativa em mL/min/1,73m², não uma medida direta da filtração. Função renal instável, gestação, doença crítica, câncer e massa muscular ou tamanho corporal atípicos podem reduzir sua confiabilidade. Próximo a um limiar decisório, a avaliação pode requerer creatinina–cistatinaC ou medida confirmatória. A categoria G isolada não confirma DRC. O resultado indexado não deve ser tratado automaticamente como clearance absoluto para dose de medicamento; confira a bula, a população e o método exigido.",
     "limitsEvidence": {
@@ -258,20 +286,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/tfg-ckd-epi/calculator.js",
-    "bytes": 5045,
-    "sha256": "a6f6f60100e4737053d30f697f5c43840047fdded0cf641d4e35851b9fcd78ca"
+    "bytes": 5250,
+    "sha256": "2c2abeefe92fc7c783401348400541fe0d4515bc737d55552defafe051935887"
   },
-  "sourceToolSha256": "b2b28f893ac377b1dffa4ba1649afddd50d66799af45ed7ad8a0b7ca1d742c11",
+  "sourceToolSha256": "9c6a80e50d91687db1b00f0c94498db9e34061426b4b3e67537724d757428ec7",
   "omittedFullReferenceBanks": [
     {
       "rows": 2,
       "sha256": "e68d8f24e7adeccc33d38f1e6092f4f65903678c26bd370998b69743d61c5700",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 2,
       "sha256": "e68d8f24e7adeccc33d38f1e6092f4f65903678c26bd370998b69743d61c5700",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

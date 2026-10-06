@@ -1,0 +1,178 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "tfg-ckd-epi",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "15773f97c19554ba878314c55e2ca2918fbd22d9",
+    "oldEngineSha256": "a6f6f60100e4737053d30f697f5c43840047fdded0cf641d4e35851b9fcd78ca",
+    "currentEngineSha256": "2c2abeefe92fc7c783401348400541fe0d4515bc737d55552defafe051935887"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Homem, 50 anos, Cr 1,0: ≈ 92 mL/min/1,73 m² (G1)",
+      "input": {
+        "cr": 1,
+        "idade": 50,
+        "sexo": "M"
+      },
+      "publicOutput": {
+        "id": "tfg-ckd-epi",
+        "main": [
+          "92",
+          "mL/min/1,73 m²"
+        ],
+        "label": "TFG estimada (CKD-EPI 2021)",
+        "raw": {
+          "gfr": 91.6914786098333,
+          "stage": "G1"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "gfr": 92,
+          "stage": "G1"
+        },
+        "tol": 0.5
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "92",
+          "mL/min/1,73 m²"
+        ],
+        "label": "TFG estimada (CKD-EPI 2021)",
+        "level": "low",
+        "verdict": "Estágio G1: TFG normal ou alta",
+        "note": "",
+        "raw": {
+          "gfr": 91.6914786098333,
+          "stage": "G1"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Mulher, 50 anos, Cr 0,7: 105 mL/min/1,73 m²",
+      "input": {
+        "cr": 0.7,
+        "idade": 50,
+        "sexo": "F"
+      },
+      "publicOutput": {
+        "id": "tfg-ckd-epi",
+        "main": [
+          "105",
+          "mL/min/1,73 m²"
+        ],
+        "label": "TFG estimada (CKD-EPI 2021)",
+        "raw": {
+          "gfr": 105.29760114914401,
+          "stage": "G1"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "gfr": 105
+        },
+        "tol": 0.5
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "105",
+          "mL/min/1,73 m²"
+        ],
+        "label": "TFG estimada (CKD-EPI 2021)",
+        "level": "low",
+        "verdict": "Estágio G1: TFG normal ou alta",
+        "note": "",
+        "raw": {
+          "gfr": 105.29760114914401,
+          "stage": "G1"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Homem, 70 anos, Cr 2,5: estágio G4",
+      "input": {
+        "cr": 2.5,
+        "idade": 70,
+        "sexo": "M"
+      },
+      "publicOutput": {
+        "id": "tfg-ckd-epi",
+        "main": [
+          "27",
+          "mL/min/1,73 m²"
+        ],
+        "label": "TFG estimada (CKD-EPI 2021)",
+        "raw": {
+          "gfr": 26.963782417509204,
+          "stage": "G4"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "stage": "G4"
+        },
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "27",
+          "mL/min/1,73 m²"
+        ],
+        "label": "TFG estimada (CKD-EPI 2021)",
+        "level": "high",
+        "verdict": "Estágio G4: TFG gravemente diminuída",
+        "note": "TFG < 60 por mais de 3 meses: doença renal crônica e alto risco cardiovascular.",
+        "raw": {
+          "gfr": 26.963782417509204,
+          "stage": "G4"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}

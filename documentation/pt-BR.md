@@ -80,3 +80,24 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Estágio G1: TFG normal ou alta
+
+
+### 2
+
+Estágio G1: TFG normal ou alta
+
+
+### 3
+
+Estágio G4: TFG gravemente diminuída
+
+TFG < 60 por mais de 3 meses: doença renal crônica e alto risco cardiovascular.
+
